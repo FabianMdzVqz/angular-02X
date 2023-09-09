@@ -1,0 +1,45 @@
+<p>Mostrar información del componente - Atributos de la Clase - Variables </p>
+<h1>{{name}}</h1>
+<dl>
+  <dt>Nombre:</dt>
+  <dd>{{name}}</dd>
+
+  <dt>Edad:</dt>
+  <dd>{{age}}</dd>
+
+  <dt>Método:</dt>
+  <dd>{{getHeroeDescription()}}</dd>
+
+  <dt>Capitalizado:</dt>
+  <dd>{{capitalizeName()}}</dd>
+
+  <dt></dt>
+  <dd></dd>
+
+  <dt></dt>
+  <dd></dd>
+
+
+
+</dl>
+
+<button type="button"
+*ngIf="name !== 'spiderman'"
+(click)="changeNombre()" class="btn btn-primary mx-2">
+  Cambiar Nombre
+</button>
+
+<button type="button"
+*ngIf="age !== 36"
+(click)="changeEdad()" class="btn btn-primary">
+  Cambiar edad
+</button>
+
+<button type="button"
+(click)="resetForm()" class="btn btn-primary mx-2">
+  Reset
+</button>
+
+
+<br />
+<a href="https://angular.io/guide/interpolation">Angular Iterpolation</a>
