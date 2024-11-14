@@ -1,0 +1,41 @@
+ng g c heroes/hero --project=bases
+ng g c heroes/list --project=bases
+
+
+#git
+## Inicializar repositorio local
+git init
+
+## Incluye todos los archivos al contol de código
+git add .
+
+## Establece el repositorio remoto (origin)
+git remote add origin https://github.com/FabianMdzVqz/angular-02X.git
+
+## Renombra la rama
+git branch -M main
+
+## Envía los cambios al origin
+git push -u origin main
+
+
+## Actualizar
+git add .
+git commit -m "indicar los cambios"
+git push
+
+# Nuevo módulo
+ng g
+
+## Estructura de carpetas
+mkdir projects\bases\src\app\dbz\components
+mkdir projects\bases\src\app\dbz\interfaces
+mkdir projects\bases\src\app\dbz\pages
+mkdir projects\bases\src\app\dbz\services
+
+# Nuevo Componente
+ng g c dbz/components/add-character --project bases
+
+
+# a partir de la v17
+ng new bases --no-standalone

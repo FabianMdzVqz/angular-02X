@@ -25,8 +25,9 @@ const audioPlayer: AudioPlayer ={
 
 const song = "New song"
 
-const {song:anotherSong, songDuration: duration, details : det } = audioPlayer
-det.author
+const {song: anotherSong, songDuration: duration, details : det } = audioPlayer
+
+const {author} = det
 
 // console.log('Song', anotherSong);
 // console.log('Duration', duration);

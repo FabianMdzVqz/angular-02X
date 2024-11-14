@@ -5,7 +5,7 @@ let name = 'fabian'
 // Variable que no cambia de valor
 const numbre_constante = "Fabián";
 
-let hpPoints: number | 'FULL' = 95;
+let hpPoints: number | 'FULL' = 95; // El string sirve para definir ENUMS
 const isAlive: Boolean = true;
 
 console.log({

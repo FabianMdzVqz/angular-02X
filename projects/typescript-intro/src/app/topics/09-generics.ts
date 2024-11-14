@@ -7,7 +7,7 @@ console.log(amIaString.split(' '))
 
 
 let amINumber = whatsMyType<number>(1);
-console.log(amIaString)
+console.log(amINumber)
 
 
 let amIArray = whatsMyType<number[]>([1,2,3,45,]);

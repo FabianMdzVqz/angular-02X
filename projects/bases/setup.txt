@@ -1,2 +1,0 @@
-ng g c heroes/hero --project=bases
-ng g c heroes/list --project=bases

@@ -1,7 +1,7 @@
 <h3>Listado de Héroes!</h3>
 
 <div *ngIf="deletedHeroe; else nodeletion">
-  <h3>Héroe borrado <small class="text-danger"> {{deletedHeroe}} </small></h3>
+  <h3>Último héroe borrado <small class="text-danger"> {{deletedHeroe}} </small></h3>
 </div>
 <ng-template #nodeletion>
   <h3>No ha borrado nada</h3>
